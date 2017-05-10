@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="128" id="f8H-t7-E8I" customClass="CustomTbCell" customModule="SwipeTable" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f8H-t7-E8I" id="0AZ-cs-qWq">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="127.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eys-qR-gpG">
+                        <rect key="frame" x="0.0" y="8" width="280.5" height="111.5"/>
+                        <color key="backgroundColor" red="0.2156862745" green="0.66666666669999997" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="eys-qR-gpG" secondAttribute="height" multiplier="229:128" constant="81" id="uiy-B8-Diy"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5PI-b7-tXj">
+                        <rect key="frame" x="288.5" y="8" width="102.5" height="111.5"/>
+                        <color key="backgroundColor" red="0.80784314869999996" green="0.027450980619999999" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5PI-b7-tXj" firstAttribute="top" secondItem="0AZ-cs-qWq" secondAttribute="top" constant="8" id="4ET-zj-793"/>
+                    <constraint firstAttribute="bottom" secondItem="eys-qR-gpG" secondAttribute="bottom" constant="8" id="CGo-7e-kVc"/>
+                    <constraint firstAttribute="bottom" secondItem="5PI-b7-tXj" secondAttribute="bottom" constant="8" id="Cre-m9-2eu"/>
+                    <constraint firstItem="5PI-b7-tXj" firstAttribute="leading" secondItem="eys-qR-gpG" secondAttribute="trailing" constant="8" id="Kex-nt-X0Q"/>
+                    <constraint firstItem="eys-qR-gpG" firstAttribute="top" secondItem="0AZ-cs-qWq" secondAttribute="top" constant="8" id="cM7-jY-BQO"/>
+                    <constraint firstItem="eys-qR-gpG" firstAttribute="leading" secondItem="0AZ-cs-qWq" secondAttribute="leading" id="lSe-P7-Xbk"/>
+                    <constraint firstAttribute="trailing" secondItem="5PI-b7-tXj" secondAttribute="trailing" id="vxX-wQ-4sH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="customMainView" destination="eys-qR-gpG" id="TTG-oz-He4"/>
+                <outlet property="leading" destination="lSe-P7-Xbk" id="nmd-cu-Thh"/>
+            </connections>
+            <point key="canvasLocation" x="-12.5" y="56"/>
+        </tableViewCell>
+    </objects>
+</document>
