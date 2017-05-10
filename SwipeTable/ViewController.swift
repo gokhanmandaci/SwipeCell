@@ -29,6 +29,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         let nib = UINib(nibName: "CustomTbCell", bundle: nil)
         tbView.register(nib, forCellReuseIdentifier: "cell")
         
+        
         tbView.separatorColor = UIColor.clear
         
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.dismissAnimatedCell), name: notiDismissCell, object: nil)
