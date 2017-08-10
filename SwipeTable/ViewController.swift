@@ -16,7 +16,7 @@ class CellTag {
 
 }
 
-class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegate,UIScrollViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
     
     @IBOutlet weak var tbView: UITableView!
   

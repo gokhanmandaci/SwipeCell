@@ -19,7 +19,7 @@ class CustomTbCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        let gesture = UISwipeGestureRecognizer(target: self, action: #selector(CustomCell.swipeAction(_:)))
+        let gesture = UISwipeGestureRecognizer(target: self, action: #selector(CustomTbCell.swipeAction(_:)))
         gesture.direction = .left
         customMainView.addGestureRecognizer(gesture)
         

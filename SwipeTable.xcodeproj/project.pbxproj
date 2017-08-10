@@ -16,9 +16,6 @@
 		D0A194EE1EC19E740050D33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A194EC1EC19E740050D33A /* LaunchScreen.storyboard */; };
 		D0A194F91EC19E740050D33A /* SwipeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A194F81EC19E740050D33A /* SwipeTableTests.swift */; };
 		D0A195041EC19E740050D33A /* SwipeTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A195031EC19E740050D33A /* SwipeTableUITests.swift */; };
-		D0A195121EC1A7E60050D33A /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A195111EC1A7E60050D33A /* SecondVC.swift */; };
-		D0A195141EC1A81A0050D33A /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A195131EC1A81A0050D33A /* CustomCell.xib */; };
-		D0A195161EC1ABFC0050D33A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A195151EC1ABFC0050D33A /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +51,6 @@
 		D0A194FF1EC19E740050D33A /* SwipeTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A195031EC19E740050D33A /* SwipeTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableUITests.swift; sourceTree = "<group>"; };
 		D0A195051EC19E740050D33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0A195111EC1A7E60050D33A /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
-		D0A195131EC1A81A0050D33A /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
-		D0A195151EC1ABFC0050D33A /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +107,6 @@
 				D0A194EA1EC19E740050D33A /* Assets.xcassets */,
 				D0A194EC1EC19E740050D33A /* LaunchScreen.storyboard */,
 				D0A194EF1EC19E740050D33A /* Info.plist */,
-				D0A195111EC1A7E60050D33A /* SecondVC.swift */,
-				D0A195131EC1A81A0050D33A /* CustomCell.xib */,
-				D0A195151EC1ABFC0050D33A /* CustomCell.swift */,
 				D097513B1EC1E68B008F84C5 /* CustomTbCell.xib */,
 				D097513D1EC1E7A0008F84C5 /* CustomTbCell.swift */,
 			);
@@ -253,7 +244,6 @@
 				D0A194EE1EC19E740050D33A /* LaunchScreen.storyboard in Resources */,
 				D097513C1EC1E68B008F84C5 /* CustomTbCell.xib in Resources */,
 				D0A194EB1EC19E740050D33A /* Assets.xcassets in Resources */,
-				D0A195141EC1A81A0050D33A /* CustomCell.xib in Resources */,
 				D0A194E91EC19E740050D33A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +271,6 @@
 			files = (
 				D0A194E61EC19E740050D33A /* ViewController.swift in Sources */,
 				D097513E1EC1E7A0008F84C5 /* CustomTbCell.swift in Sources */,
-				D0A195121EC1A7E60050D33A /* SecondVC.swift in Sources */,
-				D0A195161EC1ABFC0050D33A /* CustomCell.swift in Sources */,
 				D0A194E41EC19E740050D33A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
